@@ -10,13 +10,15 @@ export interface RouteInfo {
 
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard',     title: 'Dashboard',         icon:'nc-bank',       class: '' },
-    { path: '/icons',         title: 'Icons',             icon:'nc-diamond',    class: '' },
-    { path: '/maps',          title: 'Maps',              icon:'nc-pin-3',      class: '' },
-    { path: '/notifications', title: 'Notifications',     icon:'nc-bell-55',    class: '' },
-    { path: '/user',          title: 'User Profile',      icon:'nc-single-02',  class: '' },
-    { path: '/table',         title: 'Table List',        icon:'nc-tile-56',    class: '' },
-    { path: '/typography',    title: 'Typography',        icon:'nc-caps-small', class: '' },
-    { path: '/upgrade',       title: 'Upgrade to PRO',    icon:'nc-spaceship',  class: 'active-pro' },
+    { path: '/campaign',     title: 'Quản lý chiến dịch',         icon:'nc-bank',       class: '' },
+    { path: '/transaction',     title: 'Lịch sử giao dịch',         icon:'nc-bank',       class: '' },
+    { path: '/user',        title: 'Quản lý người dùng',         icon:'nc-bank',       class: '' },
+    { path: '/categories',     title: 'Quản lý danh mục',         icon:'nc-bank',       class: '' },
+    { path: '/sponsor',     title: 'Quản lý nhà đồng hành',         icon:'nc-bank',       class: '' },
+    { path: '/article',     title: 'Quản lý bài viết',         icon:'nc-bank',       class: '' },
+    { path: '/comment',     title: 'Quản lý bình luận',         icon:'nc-bank',       class: '' },
+    { path: '/faq',     title: 'Quản lý FAQ',         icon:'nc-bank',       class: '' },
+    { path: '/payment-channel',     title: 'Quản lý kênh thanh toán',         icon:'nc-bank',       class: '' },
 ];
 
 @Component({
