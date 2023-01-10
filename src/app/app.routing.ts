@@ -20,7 +20,7 @@ export const AppRoutes: Routes = [
   {
     path: 'login',
     component: LoginLayoutComponent,
-    canActivate : [AuthGuard],
+    // canActivate : [AuthGuard],
     },
   {
     path: '**',

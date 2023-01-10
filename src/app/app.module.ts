@@ -27,6 +27,9 @@ import {AuthService} from "./auth/auth.service";
 import {AuthGuardService} from "./auth/auth-guard.service";
 import {JwtModule} from "@auth0/angular-jwt";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {NzLayoutModule} from "ng-zorro-antd/layout";
+import {NzBreadCrumbModule} from "ng-zorro-antd/breadcrumb";
+import {NzCardModule} from "ng-zorro-antd/card";
 
 registerLocaleData(en);
 
@@ -69,6 +72,9 @@ export function tokenGetter() {
       },
     }),
     NgbModule,
+    NzLayoutModule,
+    NzBreadCrumbModule,
+    NzCardModule,
   ],
   providers: [
     AuthGuardService,
